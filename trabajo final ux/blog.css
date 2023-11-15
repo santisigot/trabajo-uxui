@@ -1,0 +1,86 @@
+header {
+    background-color: rgb(100, 116, 208);
+    border-top: opx;
+    margin: 0px; 
+    padding: 0px; 
+
+}
+.titulo {
+    text-align: center;
+}
+
+.pie {
+    text-align: end;
+    background-color: rgb(58, 83, 227);
+}
+
+.textopie {
+    color: black;
+}
+
+.container1 {
+    display: grid;
+    border-bottom: 100px;
+}
+
+.blogcontainer {
+    background-color:  #e6e9ed;
+    padding: 0 50px 40px;
+}
+
+.blogs-news-img-container {
+    grid-column: 1;
+    text-align: center;
+
+}
+
+.blogs-news-info-container {
+    grid-column: 2;
+    margin-right: 300px;
+}
+
+.blogs-main-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.fotomia {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.fotomia2 {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.fotomia2 {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.habilidades1 {
+    text-align: center;
+}
+
+.sobremi {
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+    gap: 20px;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.sobremi2 {
+    color: black;
+}
